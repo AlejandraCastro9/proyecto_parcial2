@@ -26,7 +26,6 @@
                          </ul>
                     </p>
                     <hr class="my-4">
-                    <p>Esta práctica pertenece al parcial #2</p>
                   </div>
             </div>
         </div>
