@@ -7,6 +7,7 @@
     <title>Dolce mia</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-3.6.1.js"></script>
+    
 </head>
 <body>
     <?php include 'menu.php'; ?>
@@ -16,6 +17,7 @@
             <div class="col-12">
                 <div class="jumbotron">
                     <h1 class="display-4">Dolce mia</h1>
+                    <img src="img/miapa.jpg" alt="miapa.jpg" height="120" width="100">
                     <p class="lead">
                        Bienvenido a la página oficial del Dolce mia donde encontrarás todos nuestros productos y
                         diferentes locaciones como:
@@ -27,6 +29,7 @@
                     </p>
                     <hr class="my-4">
                   </div>
+                  <p></p>
             </div>
         </div>
     </div>

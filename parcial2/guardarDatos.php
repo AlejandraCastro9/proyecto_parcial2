@@ -3,13 +3,11 @@
     include 'conexion.php';
 
     $nombre = $_POST["nombre"];
-    $sexo = $_POST["sexo"];
-    $edad = $_POST["edad"];
-    $domicilio = $_POST["domicilio"];
-    $fecha_nacimiento = $_POST["fecha_nacimiento"];
+    $precio = $_POST["precio"];
+    $ingredientes = $_POST["ingredientes"];
 
-    $sql = "INSERT INTO usuarios (nombre, edad, sexo, domicilio, fecha_nacimiento)". 
-    "VALUES ('".$nombre."', ".$edad.", ".$sexo.", '".$domicilio."', '".$fecha_nacimiento."')";
+    $sql = "INSERT INTO menu (nombre, precio, ingredientes)". 
+    "VALUES ('".$nombre."', '".$precio."', '".$ingredientes."')";
 
     if($conexion->query($sql) === TRUE){
         echo "Registro guardado con Éxito <a href='consultarDatos.php'>Regresar</a>";

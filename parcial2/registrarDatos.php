@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dolce Mia</title>
+    <title>Dolce Mia Menu</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-3.6.1.js"></script>
 </head>
@@ -20,25 +20,13 @@
                         <label for="">Nombre:</label>
                         <input type="text" class="form-control" name="nombre" placeholder="Teclea el nombre">
                     </div>
-
                     <div class="form-group">
-                        <label for="">Edad:</label>
-                        <input type="number" class="form-control" name="edad" placeholder="Teclea la edad">
+                        <label for="">precio:</label>
+                        <input type="text" class="form-control" name="precio" placeholder="Teclea el precio">
                     </div>
-
                     <div class="form-group">
-                        <input type="radio" name="sexo" value="1"> Masculino <br>
-                        <input type="radio" name="sexo" value="0"> Femenino
-                    </div>
-
-                    <div class="form-group">
-                        <label for="">Domicilio:</label>
-                        <textarea name="domicilio" id="" cols="30" rows="10" class="form-control"></textarea>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="">Fecha de nacimiento:</label>
-                        <input type="date" class="form-control" name="fecha_nacimiento">
+                        <label for="">ingredientes:</label>
+                        <input type="text" class="form-control" name="ingredientes" placeholder="Teclea los ingredientes">
                     </div>
                     <div>
                         <input type="submit" class="btn btn-primary" value="Registrar">
